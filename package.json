@@ -1,0 +1,56 @@
+{
+  "name": "db-gutenberg",
+  "version": "1.0.0",
+  "main": "editor.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --mode=development --watch",
+    "build": "webpack --mode=production",
+    "zip": "webpack --mode=production && gulp bundle"
+  },
+  "dependencies": {
+    "@wordpress/blocks": "^11.1.0",
+    "@wordpress/i18n": "^4.2.2",
+    "bootstrap": "5.1.1",
+    "jquery": "^3.6.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-rc.0",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "@wordpress/blob": "^3.2.1",
+    "@wordpress/browserslist-config": "^4.1.0",
+    "@wordpress/components": "^17.0.0",
+    "@wordpress/data": "^6.1.0",
+    "@wordpress/edit-post": "^5.0.2",
+    "@wordpress/editor": "^11.0.2",
+    "@wordpress/element": "^4.0.1",
+    "@wordpress/html-entities": "^3.2.1",
+    "autoprefixer": "^10.3.4",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-styled-components": "^1.13.2",
+    "browserslist": "^4.17.0",
+    "classnames": "^2.3.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.2.0",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.1.0",
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.3.0",
+    "node-sass": "^6.0.1",
+    "postcss-loader": "^6.1.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "browserslist": [
+    "extends @wordpress/browserslist-config"
+  ]
+}

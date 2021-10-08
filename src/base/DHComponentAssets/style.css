@@ -1,0 +1,6 @@
+.dh-gutenberg-top-panel {
+  justify-content: space-between;
+}
+.dh-gutenberg-top-panel .nav-item .nav-link {
+  padding: 0.5rem 1.4rem;
+}
